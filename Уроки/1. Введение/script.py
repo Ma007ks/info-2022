@@ -1,27 +1,27 @@
-##print(3 + 5)
-##print("Hello, world!", end=" :)")
-##
-##print(2 ** 3)
-##
-##print(1, 2, 3, 4, 5, sep="")
-##print(1,2,3,4,5, sep="*-*") # не красиво!
-##print("1, 2, 3, 4, 5")
-##
-### Переменная — это ссылка на какой-то объект
-##
-##x = 2 ** 100
-##
-##print(x)
-##print(1267650600228229401496703205376)
-##print(2 ** 100)
-##print(x * 5)
-##print(x)
-##print(type(x))
-##
-##x = 'Hello'
-##
-##print(x)
-##print(type(x))
+print(3 + 5)
+print("Hello, world!", end=" :)")
+
+print(2 ** 3)
+
+print(1, 2, 3, 4, 5, sep="")
+print(1, 2, 3, 4, 5, sep="*-*")  # некрасиво!
+print("1, 2, 3, 4, 5")
+
+# Переменная — это ссылка на какой-то объект
+
+x = 2 ** 100
+
+print(x)
+print(1267650600228229401496703205376)
+print(2 ** 100)
+print(x * 5)
+print(x)
+print(type(x))
+
+x = 'Hello'
+
+print(x)
+print(type(x))
 
 a, b = 3, 7
 
