@@ -6,15 +6,15 @@
 # range(start, finish)
 # range(start, finish, step)
 
-# print(list(range(5)))
-# print(list(range(20)))
-# print(list(range(1)))
-#
-# print(list(range(10, 20)))
-# print(list(range(35, 47)))
-#
-# print(list(range(0, 20, 2)))
-# print(list(range(20, 0, -3)))
+print(list(range(5)))
+print(list(range(20)))
+print(list(range(1)))
+
+print(list(range(10, 20)))
+print(list(range(35, 47)))
+
+print(list(range(0, 20, 2)))
+print(list(range(20, 0, -3)))
 
 # а) [5, 4, 3, 2, 1, 0, -1, -2] → range(5, -3, -1)
 # б) [0, 1, 2, 3, 4, 5, 6] → range(7) = range(0, 7) = range(0, 7, 1)
@@ -41,5 +41,5 @@
 #
 # print(len(range(5, 25, 2)))
 
-for x in range(5):
-    print(x, x ** 2)
+# for x in range(5):
+#     print(x, x ** 2)
