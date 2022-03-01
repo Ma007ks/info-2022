@@ -8,5 +8,5 @@ for i in range(1, 10000):
             b += x % 10
         x //= 10
         d += 1
-    if (a, b) == (3, 16):  # a == 3 and b == 16
+    if (a, b) == (3, 16):  # a == 3 and b == 16. Задание 12
         print(i)
