@@ -4,7 +4,7 @@ s = "1" * 10 + "2" * 4
 
 
 def unique_permutations(s):
-    count_2 = s.count("2")
+    count_2 = s.curr_count_x("2")
     count = len(s)
     for c in combinations(range(count), count_2):
         new_s = "".join("2" if i in c else "1" for i in range(count))
