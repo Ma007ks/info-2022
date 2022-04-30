@@ -1,18 +1,13 @@
 numbers = [int(v) for v in open("27-b.txt").read().splitlines()][1:]
 
-full_sum = sum(numbers)
-print(full_sum)
-print(full_sum % 43)
-print(len(numbers))
-
 sm = ln = 0
-seen_rems = set()  # множество напечатанных остатков
+seen_rems = []  # множество напечатанных остатков
 
-for x in numbers:
+for x in numbers[::-1]:
     sm += x
     ln += 1
     if sm % 43 not in seen_rems:
-        seen_rems.add(sm % 43)
+        seen_rems.append(sm % 43)
         print(sm % 43, sm, ln, sep="\t")
 
 """
